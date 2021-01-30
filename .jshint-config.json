@@ -1,0 +1,8 @@
+{
+    "curly": true,
+    "forin": true,
+    "immed": true,
+    "nonbsp": true,
+    "strict": true,
+    "loopfunc": true
+}
