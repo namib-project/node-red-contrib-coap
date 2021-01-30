@@ -1,6 +1,6 @@
 node-red-contrib-coap
 =====================
-![Build Status](https://github.com/namib-project/node-red-contrib-coap/workflows/.github/workflows/npm-test.yml/badge.svg)
+![Build Status](https://github.com/namib-project/node-red-contrib-coap/workflows/.github/workflows/Node.js%20CI/badge.svg)
 [![Dependency Status](https://david-dm.org/reederz/node-red-contrib-coap.png)](https://david-dm.org/reederz/node-red-contrib-coap)
 [![Dev Dependency Status](https://david-dm.org/reederz/node-red-contrib-coap/dev-status.png)](https://david-dm.org/reederz/node-red-contrib-coap#dev-badge-embed)
 
