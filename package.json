@@ -20,7 +20,7 @@
     "node-red-node-test-helper": "^0.2.5",
     "nyc": "^15.1.0"
   },
-  "scripts": {    
+  "scripts": {
     "test": "nyc mocha --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
