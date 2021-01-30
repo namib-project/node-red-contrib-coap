@@ -25,6 +25,12 @@
     "coverage": "nyc report --reporter=lcov --reporter=text-summary",
     "jshint": "jshint coap --config .jshint-config.json"
   },
+  "mocha": {
+    "globals": ["expect"],
+    "ignoreLeaks": false,
+    "ui": "bdd",
+    "reporter": "spec"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
