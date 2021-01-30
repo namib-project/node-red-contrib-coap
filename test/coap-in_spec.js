@@ -8,6 +8,7 @@ var helper = require("node-red-node-test-helper");
 
 describe('CoapInNode', function() {
     beforeEach(function(done) {
+        helper.settings({uiHost: "::"});
         helper.startServer(done);
     });
 
@@ -91,7 +92,6 @@ describe('CoapInNode', function() {
                     var ipv6Enabled = false;
 
                     if (protocol == "ipv6") {
-                        helper.settings({uiHost: "::"});
                         serverAddress = "[::1]";
                         ipv6Enabled = true;
                     }
