@@ -91,6 +91,7 @@ describe('CoapInNode', function() {
                     var ipv6Enabled = false;
 
                     if (protocol == "ipv6") {
+                        helper.settings({uiHost: "::"});
                         serverAddress = "[::1]";
                         ipv6Enabled = true;
                     }
