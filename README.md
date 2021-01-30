@@ -1,6 +1,6 @@
 node-red-contrib-coap
 =====================
-[![Build Status](https://travis-ci.org/reederz/node-red-contrib-coap.png)](https://travis-ci.org/reederz/node-red-contrib-coap) [![Coverage Status](https://coveralls.io/repos/reederz/node-red-contrib-coap/badge.png)](https://coveralls.io/r/reederz/node-red-contrib-coap)
+![Build Status](https://github.com/namib-project/node-red-contrib-coap/workflows/.github/workflows/npm-test.yml/badge.svg)
 [![Dependency Status](https://david-dm.org/reederz/node-red-contrib-coap.png)](https://david-dm.org/reederz/node-red-contrib-coap)
 [![Dev Dependency Status](https://david-dm.org/reederz/node-red-contrib-coap/dev-status.png)](https://david-dm.org/reederz/node-red-contrib-coap#dev-badge-embed)
 
