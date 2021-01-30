@@ -34,6 +34,9 @@ jobs:
        npm test
        npm run coverage
 
+    - name: Linting with jshint
+      run: npm run jshint
+
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
