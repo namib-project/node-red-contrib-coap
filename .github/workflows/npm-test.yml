@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Analyze code statically using JSHint
-        uses: moneyforward/jshint-action@v0
+      uses: moneyforward/jshint-action@v0
 
     - run: |
        npm ci
